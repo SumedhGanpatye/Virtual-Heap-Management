@@ -69,9 +69,8 @@ This project is a simple heap memory manager implemented in C. It simulates a me
 ## Example Output
 
 Here are some example outputs showing the heap operations:
+see uploaded image
 
-![Heap Initialization and Allocation](Screenshot 2024-07-03 115334.png)
-![Heap Free and Merge Operations](./path/to/Screenshot%202024-07-03%20115602.png)
 
 ## Conclusion
 
