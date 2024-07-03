@@ -66,43 +66,12 @@ This project is a simple heap memory manager implemented in C. It simulates a me
 - The `main()` function initializes the heap and provides a menu-driven interface for users to allocate memory, free memory, and display the heap.
 - It takes user inputs to perform the desired operations and handles invalid inputs gracefully.
 
-## How to Run
+## Example Output
 
-1. **Compile the Code**
-   - Use a C compiler to compile the code:
-     ```sh
-     gcc heap_memory_manager.c -o heap_memory_manager
-     ```
+Here are some example outputs showing the heap operations:
 
-2. **Run the Executable**
-   - Execute the compiled file:
-     ```sh
-     ./heap_memory_manager
-     ```
-
-3. **Interact with the System**
-   - Follow the prompts to allocate memory, free memory, and display the heap status.
-
-## Sample Usage
-
-1. **Initial Display**
-   - The heap is initialized with a single large free block.
-
-2. **Allocate Memory**
-   - Allocate memory blocks by specifying the size and name.
-
-3. **Free Memory**
-   - Free memory blocks by specifying the name of the block.
-
-4. **Display Heap**
-   - Display the current state of the heap at any time to see the allocated and free blocks.
-
-## Notes
-
-- The metadata size is 16 bytes. Ensure this is consistent across different systems.
-- The heap size is defined as 10,000 bytes.
-- Memory block names are limited to 2 characters.
-- Handle memory allocation requests carefully to avoid fragmentation.
+![Heap Initialization and Allocation](./path/to/Screenshot%202024-07-03%20115334.png)
+![Heap Free and Merge Operations](./path/to/Screenshot%202024-07-03%20115602.png)
 
 ## Conclusion
 
